@@ -17,3 +17,12 @@ You can ignore the middleware code -- at a very basic level, this code allows us
 The database `foo.db` contains one table named `user`.
 
 Use DB Browser to explore this database before you write any code!
+
+
+Get all users - /all
+
+Create a new user - /create
+
+Update a user's name, given an id - /update
+
+Delete a user by id - /delete

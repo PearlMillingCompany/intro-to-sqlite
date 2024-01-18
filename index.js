@@ -50,11 +50,18 @@ app.get("/user/:id", db.getUserById);
 
 // Get all users
 
+app.get("/all", db.userlist);
+
 // Create a new user
+
+app.post("/create", db.createUser)
 
 // Update a user's name, given an id
 
+app.put("/update", db.updateUserById)
+
 // Delete a user by id
+app.delete("/delete", db.deleteUserById)
 
 //#endregion Database Routes
 
